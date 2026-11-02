@@ -1,0 +1,126 @@
+- generic [ref=f2e82]:
+  - banner [ref=f2e83]:
+    - generic [ref=f2e84]:
+      - generic [ref=f2e85]: Concept prototype. Synthetic data.
+      - generic "Tessa Brannigan, Medical records specialist" [ref=f2e86]: TB
+    - generic [ref=f2e87]:
+      - generic [ref=f2e88]:
+        - generic [ref=f2e89]:
+          - generic [ref=f2e90]: Viewing as
+          - combobox "Viewing as" [ref=f2e91]:
+            - option "Medical records specialist" [selected]
+            - option "PI billing"
+            - option "Attorney's view"
+        - paragraph [ref=f2e92]: In this prototype roles are simulated; a real build enforces them on the server.
+      - generic [ref=f2e93]:
+        - link "More tools for injury practices" [ref=f2e94] [cursor=pointer]:
+          - /url: https://umakescloud-max.github.io/
+        - button "Reset demo" [ref=f2e95] [cursor=pointer]
+    - navigation [ref=f2e96]:
+      - link "Start here" [ref=f2e97] [cursor=pointer]:
+        - /url: "#/"
+      - link "Requests" [ref=f2e98] [cursor=pointer]:
+        - /url: "#/requests"
+      - link "Exceptions" [ref=f2e99] [cursor=pointer]:
+        - /url: "#/exceptions"
+      - link "Release review" [ref=f2e100] [cursor=pointer]:
+        - /url: "#/approvals"
+      - link "Costs" [ref=f2e101] [cursor=pointer]:
+        - /url: "#/costs"
+      - link "How it works" [ref=f2e102] [cursor=pointer]:
+        - /url: "#/architecture"
+  - main [ref=f2e103]:
+    - generic [ref=f2e104]:
+      - heading "Release review" [level=1] [ref=f2e105]
+      - paragraph [ref=f2e106]: Records packets waiting for the specialist's approval before they are released to the requesting firm. Each card shows the chart, the date range and record types, the page count, the itemized bill and the balance from the ledger. No packet goes out without Tessa's click, and a packet with an open exception stays on Exceptions until it is cleared.
+    - list [ref=f2e108]:
+      - listitem [ref=f2e109]:
+        - generic [ref=f2e110]:
+          - paragraph [ref=f2e111]: "Request 5115: Nadia Baptiste"
+          - paragraph [ref=f2e112]: "Chart DEMO-898031. Date range Dec 8, 2024 through Nov 2, 2026. Record types: Itemized bill and final balance. 307 pages. Itemized bill $5,700 from the ledger. Payments $3,447. Balance $2,253. Firm due Nov 14, 2026."
+        - generic [ref=f2e113]:
+          - button "Send back to exceptions" [ref=f2e114] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e115] [cursor=pointer]
+      - listitem [ref=f2e116]:
+        - generic [ref=f2e117]:
+          - paragraph [ref=f2e118]: "Request 5142: Ines Lindqvist"
+          - paragraph [ref=f2e119]: "Chart DEMO-222518. Date range Jun 24, 2025 through Nov 2, 2026. Record types: Records and itemized bill. 246 pages. Itemized bill $1,870 from the ledger. Payments $1,371. Balance $499. Firm due Nov 23, 2026."
+        - generic [ref=f2e120]:
+          - button "Send back to exceptions" [ref=f2e121] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e122] [cursor=pointer]
+      - listitem [ref=f2e123]:
+        - generic [ref=f2e124]:
+          - paragraph [ref=f2e125]: "Request 5164: Maria Novak"
+          - paragraph [ref=f2e126]: "Chart DEMO-798984. Date range Jan 8, 2025 through Nov 2, 2026. Record types: Records and itemized bill. 49 pages. Itemized bill $4,160 from the ledger. Payments $2,458. Balance $1,702. Firm due Nov 19, 2026."
+        - generic [ref=f2e127]:
+          - button "Send back to exceptions" [ref=f2e128] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e129] [cursor=pointer]
+      - listitem [ref=f2e130]:
+        - generic [ref=f2e131]:
+          - paragraph [ref=f2e132]: "Request 5176: Olivia Johansson"
+          - paragraph [ref=f2e133]: "Chart DEMO-580702. Date range Dec 27, 2024 through Nov 2, 2026. Record types: Records only. 281 pages. Itemized bill $3,150 from the ledger. Payments $0. Balance $3,150. Firm due Nov 15, 2026."
+        - generic [ref=f2e134]:
+          - button "Send back to exceptions" [ref=f2e135] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e136] [cursor=pointer]
+      - listitem [ref=f2e137]:
+        - generic [ref=f2e138]:
+          - paragraph [ref=f2e139]: "Request 5181: Victor Fitzgerald"
+          - paragraph [ref=f2e140]: "Chart DEMO-850451. Date range Feb 7, 2026 through Nov 2, 2026. Record types: Records and itemized bill. 101 pages. Itemized bill $9,020 from the ledger. Payments $4,412. Balance $4,608. Firm due Nov 9, 2026."
+        - generic [ref=f2e141]:
+          - button "Send back to exceptions" [ref=f2e142] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e143] [cursor=pointer]
+      - listitem [ref=f2e144]:
+        - generic [ref=f2e145]:
+          - paragraph [ref=f2e146]: "Request 5186: Lucas Lindqvist"
+          - paragraph [ref=f2e147]: "Chart DEMO-142997. Date range Mar 8, 2025 through Nov 2, 2026. Record types: Itemized bill and final balance. 280 pages. Itemized bill $4,810 from the ledger. Payments $2,740. Balance $2,070. Firm due Nov 7, 2026."
+        - generic [ref=f2e148]:
+          - button "Send back to exceptions" [ref=f2e149] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e150] [cursor=pointer]
+      - listitem [ref=f2e151]:
+        - generic [ref=f2e152]:
+          - paragraph [ref=f2e153]: "Request 5213: Priya Alvarez"
+          - paragraph [ref=f2e154]: "Chart DEMO-979418. Date range Mar 20, 2026 through Nov 2, 2026. Record types: Records and itemized bill. 292 pages. Itemized bill $9,840 from the ledger. Payments $0. Balance $9,840. Firm due Nov 11, 2026."
+        - generic [ref=f2e155]:
+          - button "Send back to exceptions" [ref=f2e156] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e157] [cursor=pointer]
+      - listitem [ref=f2e158]:
+        - generic [ref=f2e159]:
+          - paragraph [ref=f2e160]: "Request 5225: Aisha Novak"
+          - paragraph [ref=f2e161]: "Chart DEMO-616148. Date range Aug 5, 2025 through Nov 2, 2026. Record types: Itemized bill and final balance. 134 pages. Itemized bill $4,910 from the ledger. Payments $3,509. Balance $1,401. Firm due Nov 12, 2026."
+        - generic [ref=f2e162]:
+          - button "Send back to exceptions" [ref=f2e163] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e164] [cursor=pointer]
+      - listitem [ref=f2e165]:
+        - generic [ref=f2e166]:
+          - paragraph [ref=f2e167]: "Request 5228: Marcus Fitzgerald"
+          - paragraph [ref=f2e168]: "Chart DEMO-513911. Date range Oct 30, 2024 through Nov 2, 2026. Record types: Records and itemized bill. 30 pages. Itemized bill $4,910 from the ledger. Payments $2,065. Balance $2,845. Firm due Nov 12, 2026."
+        - generic [ref=f2e169]:
+          - button "Send back to exceptions" [ref=f2e170] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e171] [cursor=pointer]
+      - listitem [ref=f2e172]:
+        - generic [ref=f2e173]:
+          - paragraph [ref=f2e174]: "Request 5231: Aisha Reyes"
+          - paragraph [ref=f2e175]: "Chart DEMO-215756. Date range Oct 31, 2025 through Nov 2, 2026. Record types: Records and itemized bill. 118 pages. Itemized bill $1,800 from the ledger. Payments $1,245. Balance $555. Firm due Nov 19, 2026."
+        - generic [ref=f2e176]:
+          - button "Send back to exceptions" [ref=f2e177] [cursor=pointer]
+          - button "Approve and release packet" [ref=f2e178] [cursor=pointer]
+    - paragraph [ref=f2e179]: 9 requests have an open exception and are held on Exceptions, so they cannot be approved here until the exception is cleared.
+    - generic [ref=f2e180]:
+      - heading "What Tessa checks before any packet is released" [level=2] [ref=f2e181]
+      - generic [ref=f2e183]:
+        - heading "Release review checklist" [level=4] [ref=f2e184]
+        - generic [ref=f2e185]:
+          - paragraph [ref=f2e186]: The chart the packet was pulled from matches the patient named in the request.
+          - paragraph [ref=f2e187]: The authorization's date range and record types cover everything in the packet.
+          - paragraph [ref=f2e188]: The page count matches the pages listed for the request.
+          - paragraph [ref=f2e189]: The itemized bill and the final balance come from the practice billing ledger, not a typed figure.
+          - paragraph [ref=f2e190]: The packet is addressed to the requesting law firm, then released only on Tessa's click.
+    - generic [ref=f2e191]:
+      - heading "Actions taken in this demo" [level=2] [ref=f2e192]
+      - paragraph [ref=f2e194]: No actions yet.
+  - contentinfo [ref=f2e195]:
+    - text: Built by
+    - link "Umakes.cloud" [ref=f2e196] [cursor=pointer]:
+      - /url: https://umakes.cloud
+    - link "umakescloud@gmail.com" [ref=f2e197] [cursor=pointer]:
+      - /url: mailto:umakescloud@gmail.com
